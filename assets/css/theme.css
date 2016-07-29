@@ -88,7 +88,7 @@ p,
 
 .section-background {
 	background: #fff;
-	padding: 80px 60px;
+	padding: 30px 30px 20px 40px;
 }
 
 .white-layer {
@@ -389,6 +389,10 @@ textarea {
 /*-------------------------------------------------	margin-bottom: 20px;*/
 }
 
+.resume-box-sub li {
+	list-style-type: disc;
+}
+
 .resume-box li:last-child {
 	margin: 0;
 }
@@ -411,15 +415,17 @@ textarea {
 	5. Skills
 -------------------------------------------------*/
 .skills-background {
-	background: url("../images/bg-img-1.jpg") no-repeat;
+	background: url("../images/bg-img-2.jpg") no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-ms-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	padding: 0;
+	padding: 30px;
 	text-align: center;
-}
+/*	margin-bottom: 20px;
+	margin-top: 20px;
+*/}
 
 .skill-bar input[type="text"] {
 	font: 300 20px "Open Sans", sans-serif;
