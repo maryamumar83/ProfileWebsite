@@ -25,17 +25,22 @@
 	1. Body/Main
 -------------------------------------------------*/
 html, body {
- 	height: 100%;
+ 	height: 100%;	
 }
 
 body {
 	position: relative;
 	overflow-x: hidden;
-	background: #fff;
+/*	background: #fff;*/
 	margin: 0;
 	padding: 0;
 	color: rgb(70, 70, 70);
 	font: 300 13px/20px 'Open Sans', sans-serif;
+	background: url("../images/DSCF1307.jpg") no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
 }
 
 h1, h2, h3, h4 {
