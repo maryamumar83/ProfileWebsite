@@ -36,11 +36,11 @@ body {
 	padding: 0;
 	color: rgb(70, 70, 70);
 	font: 300 13px/20px 'Open Sans', sans-serif;
-	background: url("../images/DSCF1307.jpg") no-repeat center center fixed; 
+	/*background: url("../images/DSCF1307.jpg") no-repeat center center fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
-	  background-size: cover;
+	  background-size: cover;*/
 }
 
 h1, h2, h3, h4 {
@@ -58,7 +58,7 @@ h1 {
 
 h2 {
 	position: relative;
-	margin: 0 0 45px 0;
+	margin: 0 0 40px 0;
 	font-size: 20px;
 }
 
@@ -93,7 +93,7 @@ p,
 
 .section-background {
 	background: #fff;
-	padding: 30px 30px 20px 40px;
+	padding: 30px 30px 20px 20px;
 }
 
 .white-layer {
@@ -491,6 +491,7 @@ textarea {
 }
 
 .portfolio-content img {
+	background: url("../images/DSCF1307.jpg") no-repeat;
 	width: 100%;
 }
 
