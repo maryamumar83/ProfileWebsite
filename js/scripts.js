@@ -147,48 +147,48 @@ $(function() {
   /*===============================================
     Owl Carousel
   ===============================================*/
-  $("#portfolioSlider").owlCarousel({
-    slideSpeed: 400,
-    paginationSpeed: 400,
-    rewindSpeed: 800,
-    singleItem: true
-  });
-
-  $("#clientSlider").owlCarousel({
-    items: 3,
-    itemsDesktop: [1199,3],
-    itemsDesktopSmall: [979,2],
-    itemsTablet: [768,1],
-    itemsMobile: [479,1],
-    autoPlay: 2000, // 2 seconds
-    stopOnHover: true,
-    pagination: false,
-    slideSpeed: 400,
-    paginationSpeed: 400,
-    rewindSpeed: 800,
-    singleItem: false
-  });
+  // $("#portfolioSlider").owlCarousel({
+  //   slideSpeed: 400,
+  //   paginationSpeed: 400,
+  //   rewindSpeed: 800,
+  //   singleItem: true
+  // });
+  //
+  // $("#clientSlider").owlCarousel({
+  //   items: 3,
+  //   itemsDesktop: [1199,3],
+  //   itemsDesktopSmall: [979,2],
+  //   itemsTablet: [768,1],
+  //   itemsMobile: [479,1],
+  //   autoPlay: 2000, // 2 seconds
+  //   stopOnHover: true,
+  //   pagination: false,
+  //   slideSpeed: 400,
+  //   paginationSpeed: 400,
+  //   rewindSpeed: 800,
+  //   singleItem: false
+  // });
 
   /*===============================================
     Google Maps
   ===============================================*/
-  var markerIcon = "images/marker.png";
-  // Map Initial Location
-  var initLatitude = 51.5074; // <- Latitude here
-  var initLongitude = 0.1258; // <- Longitude here
-  
-  var map = new GMaps({
-    el: '#map-canvas',
-    lat: initLatitude,
-    lng: initLongitude,
-    zoom: 10,
-    scrollwheel: false
-  });
-  map.addMarker({
-    lat : initLatitude,
-    lng : initLongitude,
-    icon: markerIcon
-  });
+  // var markerIcon = "images/marker.png";
+//   // Map Initial Location
+//   var initLatitude = 51.5074; // <- Latitude here
+//   var initLongitude = 0.1258; // <- Longitude here
+//
+//   var map = new GMaps({
+//     el: '#map-canvas',
+//     lat: initLatitude,
+//     lng: initLongitude,
+//     zoom: 10,
+//     scrollwheel: false
+//   });
+//   map.addMarker({
+//     lat : initLatitude,
+//     lng : initLongitude,
+//     icon: markerIcon
+//   });
 
   /*===============================================
     Toggle Menu
