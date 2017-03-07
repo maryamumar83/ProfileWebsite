@@ -147,27 +147,27 @@ $(function() {
   /*===============================================
     Owl Carousel
   ===============================================*/
-  // $("#portfolioSlider").owlCarousel({
-  //   slideSpeed: 400,
-  //   paginationSpeed: 400,
-  //   rewindSpeed: 800,
-  //   singleItem: true
-  // });
-  //
-  // $("#clientSlider").owlCarousel({
-  //   items: 3,
-  //   itemsDesktop: [1199,3],
-  //   itemsDesktopSmall: [979,2],
-  //   itemsTablet: [768,1],
-  //   itemsMobile: [479,1],
-  //   autoPlay: 2000, // 2 seconds
-  //   stopOnHover: true,
-  //   pagination: false,
-  //   slideSpeed: 400,
-  //   paginationSpeed: 400,
-  //   rewindSpeed: 800,
-  //   singleItem: false
-  // });
+  $("#portfolioSlider").owlCarousel({
+    slideSpeed: 400,
+    paginationSpeed: 400,
+    rewindSpeed: 800,
+    singleItem: true
+  });
+
+  $("#clientSlider").owlCarousel({
+    items: 3,
+    itemsDesktop: [1199,3],
+    itemsDesktopSmall: [979,2],
+    itemsTablet: [768,1],
+    itemsMobile: [479,1],
+    autoPlay: 2000, // 2 seconds
+    stopOnHover: true,
+    pagination: false,
+    slideSpeed: 400,
+    paginationSpeed: 400,
+    rewindSpeed: 800,
+    singleItem: false
+  });
 
   /*===============================================
     Google Maps
