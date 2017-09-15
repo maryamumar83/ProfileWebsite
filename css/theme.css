@@ -285,7 +285,7 @@ textarea {
 	position: relative;
 	top: 0;
 	left: 0;
-	background: url("../images/home-bg-img.jpg") no-repeat top center fixed;
+	background: url("http://maryamumar.com/images/DSCF1307.jpg") no-repeat top center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-ms-background-size: cover;
@@ -418,7 +418,6 @@ textarea {
 	5. Skills
 -------------------------------------------------*/
 .skills-background {
-	background: url("../images/bg-img-2.jpg") no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-ms-background-size: cover;
@@ -426,9 +425,11 @@ textarea {
 	background-size: cover;
 	padding: 30px;
 	text-align: center;
-/*	margin-bottom: 20px;
+	/*	margin-bottom: 20px;
 	margin-top: 20px;
-*/}
+*/
+	background-color: #A0A0A0;
+	}
 
 .skill-bar input[type="text"] {
 	font: 300 20px "Open Sans", sans-serif;
@@ -489,7 +490,6 @@ textarea {
 }
 
 .portfolio-content img {
-	background: url("../images/DSCF1307.jpg") no-repeat;
 	width: 100%;
 }
 
